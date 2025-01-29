@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <WebView
-        source={{uri: 'https://disneyplus-self.vercel.app/'}}
+        source={{uri: 'https://disney-plus-silk.vercel.app/login'}}
         style={{flex: 1}}
         scalesPageToFit={true} // Prevents zooming on Android
         javaScriptEnabled={true} // Ensures JavaScript runs in WebView
